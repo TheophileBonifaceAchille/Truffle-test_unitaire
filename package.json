@@ -1,0 +1,13 @@
+{
+  "name": "Calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "TheophileBonifaceAchille <theophile.boniface@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.6",
+    "@openzeppelin/test-helpers": "^0.5.9",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  }
+}
