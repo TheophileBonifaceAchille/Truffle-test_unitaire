@@ -23,7 +23,8 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"nb1\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nb2\",\"type\":\"uint256\"}],\"name\":\"mul\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/theophile/Bureau/Projets/Calculator/contracts/Multiplier.sol\":\"Multiplier\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/theophile/Bureau/Projets/Calculator/contracts/Multiplier.sol\":{\"keccak256\":\"0xa440ec9fb71d5827b775a467b1a58072dbfecd01f903a1a255064c89d56470fc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3ab667aaee92680c760833f62523e6ec1d3192a0f72b5b5753c4e5bb52e67c73\",\"dweb:/ipfs/QmVdXmK6b4Ld64ZWkZegKLGR8z2F68fWjcXQ9ZcXuq1niN\"]}},\"version\":1}",
@@ -468,9 +469,23 @@
     "name": "solc",
     "version": "0.6.12+commit.27d51765.Linux.g++"
   },
-  "networks": {},
+  "networks": {
+    "1603897138759": {
+      "events": {},
+      "links": {},
+      "address": "0x1661AF9626d585DD6b7bBd60AbA591dAaBBC9D7a",
+      "transactionHash": "0x48a8e3e774c22b93454bf12631d40f5489bc85c35c93856065f622869a2b1151"
+    },
+    "1603899669253": {
+      "events": {},
+      "links": {},
+      "address": "0x77757E691F3F30FCFfF82855A2024f5956c7C4E1",
+      "transactionHash": "0xfdd77a94ccfc384362daebdb72339092cbd77f4f4083e61ab394b0b4d58c82fb"
+    }
+  },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-10-28T13:59:49.846Z",
+  "updatedAt": "2020-10-28T15:42:29.988Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},

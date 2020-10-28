@@ -23,7 +23,8 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"nb1\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nb2\",\"type\":\"uint256\"}],\"name\":\"div\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/theophile/Bureau/Projets/Calculator/contracts/Divisor.sol\":\"Divisor\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/theophile/Bureau/Projets/Calculator/contracts/Divisor.sol\":{\"keccak256\":\"0xcf5168db935cec7998f5c0bef2b1bca05f5bb19af541df79226f5c6d1c6937cf\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://472084ab8b17e57ceeb97108fccb8f2856b56f84e926a7fa34641819d3b4ed5c\",\"dweb:/ipfs/QmZyqtb4Sh2biyELNy2y8rVmPNSiyb3k2o9A3jZiZkV6nY\"]}},\"version\":1}",
@@ -702,9 +703,23 @@
     "name": "solc",
     "version": "0.6.12+commit.27d51765.Linux.g++"
   },
-  "networks": {},
+  "networks": {
+    "1603897138759": {
+      "events": {},
+      "links": {},
+      "address": "0xd8Ba0e9355920bd98438f791ff805F51c3409570",
+      "transactionHash": "0xecf690d737c4fc56511addf614844c322c07581e0b9aa1d8f1735ede0cb04240"
+    },
+    "1603899669253": {
+      "events": {},
+      "links": {},
+      "address": "0x8018B04aca74117E29A257d5EE68E34618CA57D2",
+      "transactionHash": "0x060d3b5ab601f18bdc01411f7fb3c88e042fe7c117831039cae7e0b76bc51aa2"
+    }
+  },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-10-28T13:59:49.845Z",
+  "updatedAt": "2020-10-28T15:42:29.988Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
