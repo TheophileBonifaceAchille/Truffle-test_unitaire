@@ -49,8 +49,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -74,8 +73,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -99,8 +97,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -124,8 +121,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_adderContract\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_suberContract\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_multiplierContract\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_divisorContract\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"nb1\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nb2\",\"type\":\"uint256\"}],\"name\":\"add\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"nb1\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nb2\",\"type\":\"uint256\"}],\"name\":\"div\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"nb1\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nb2\",\"type\":\"uint256\"}],\"name\":\"mul\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"nb1\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nb2\",\"type\":\"uint256\"}],\"name\":\"sub\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/theophile/Bureau/Projets/Calculator/contracts/Calculator.sol\":\"Calculator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/theophile/Bureau/Projets/Calculator/contracts/Adder.sol\":{\"keccak256\":\"0x0009a63ab3295d16a8a19741d4af3a6494eefbf76de0cde1c0bfada97a0797cf\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1e8d4c674fd98fbddbc6c417e029c26bd42a9491c85394e61a1958e2d2d342bc\",\"dweb:/ipfs/QmTR33hubGQ4FCDaChJCzThHdWFeM3T5qiLvyBgf5ejcBB\"]},\"/home/theophile/Bureau/Projets/Calculator/contracts/Calculator.sol\":{\"keccak256\":\"0xaa27c59c53a0a036688a69cfab6f0d6efdf46198808d261da45fd5cb325fe77d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5f9cf72466addd15db39ebb3366606cbf2d42a8fa6027789044f150e3cca3df0\",\"dweb:/ipfs/QmX3GvMEoagTRvybqJqE1h2CCcXGuyAzo8k7yMfzUPUpBa\"]},\"/home/theophile/Bureau/Projets/Calculator/contracts/Divisor.sol\":{\"keccak256\":\"0xcf5168db935cec7998f5c0bef2b1bca05f5bb19af541df79226f5c6d1c6937cf\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://472084ab8b17e57ceeb97108fccb8f2856b56f84e926a7fa34641819d3b4ed5c\",\"dweb:/ipfs/QmZyqtb4Sh2biyELNy2y8rVmPNSiyb3k2o9A3jZiZkV6nY\"]},\"/home/theophile/Bureau/Projets/Calculator/contracts/Multiplier.sol\":{\"keccak256\":\"0xa440ec9fb71d5827b775a467b1a58072dbfecd01f903a1a255064c89d56470fc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3ab667aaee92680c760833f62523e6ec1d3192a0f72b5b5753c4e5bb52e67c73\",\"dweb:/ipfs/QmVdXmK6b4Ld64ZWkZegKLGR8z2F68fWjcXQ9ZcXuq1niN\"]},\"/home/theophile/Bureau/Projets/Calculator/contracts/Suber.sol\":{\"keccak256\":\"0x3c68cbd086893b4c1d86987fbc41883726201c127f65718217db6281d19d319b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://31cc73fbcf4c6625c1774236c0811338834367785e8f75afb6bdd15dd68f5b92\",\"dweb:/ipfs/QmexSWrSZbv4TdS6nxQdQY7mejnBZeEwE3cd4un1vUCuvQ\"]}},\"version\":1}",
@@ -3215,8 +3211,7 @@
     }
   },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-10-28T15:42:29.989Z",
-  "networkType": "ethereum",
+  "updatedAt": "2020-10-28T16:15:35.835Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
